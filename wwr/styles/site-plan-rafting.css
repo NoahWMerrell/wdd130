@@ -1,7 +1,8 @@
-
+ 
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
@@ -12,7 +13,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: "Inter", sans-serif;
   --paragraph-font: "Schibsted Grotesk", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
