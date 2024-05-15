@@ -1,0 +1,38 @@
+body {
+    background-color: #5ca1d7;
+}
+main, footer {
+    padding-top: 0px;
+    padding-left: 30%;
+    padding-bottom: 0px;
+    padding-right: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+h1 {
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+.quote-small {
+    color: white;
+}
+.quote-author-white {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em
+}
+ol {
+    font-weight: bold;
+    text-align: left;
+}
+img {
+    width: 45%;
+}
+.quote-large {
+    color: white;
+    font-size: 2em;
+
+}
