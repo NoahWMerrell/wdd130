@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    margin: 0 auto;
+}
+#image-row img {
+    border-radius: 50%;
+    width: 20%;
+    border: 10px solid black;
+    padding: 30px 40px;
+}
+#image-row {
+    text-align: center;
+}
+#hero-img {
+    width: 100%;
+}
