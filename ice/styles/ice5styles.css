@@ -5,8 +5,8 @@ body {
 #image-row img {
     border-radius: 50%;
     width: 20%;
-    border: 10px solid black;
-    padding: 30px 40px;
+    border: 10px solid rgb(71, 71, 71);
+    margin: 30px;
 }
 #image-row {
     text-align: center;
