@@ -1,24 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav a, 
-#hero-msg h1, 
-#hero-msg h4, 
-.button-box,  
-main section {
+body {
+    background-color: #A3BBAD;
+    font-family: "Schibsted Grotesk", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box,  main section {
     text-align: center;
+}
+
+nav a {
+    padding: 35px;
 }
 
 #hero-img {
     width: 100%;
 }
 
-#background, 
-.msg, 
-.book, 
-.join {
+main section img {
+    box-sizing: border-box;
+}
+
+#background, .msg {
     background-color: #357266;
 }
 
@@ -26,59 +54,84 @@ main section {
     height: 725px;
 }
 
-body {
-    background-color: #A3BBAD;
-}
-
-header, 
-footer, 
-nav a, 
-footer a {
+header, footer, footer a {
     background-color: #0E3B43;
     color: gray;
 }
 
 .home-title {
     color: green;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-h4, 
-.msg h2, 
-.msg p {
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+h4, .msg h2, .msg p {
     color: #0E3B43;
 }
 
-.icon, 
-.msg p {
+.msg h2 {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.icon, .msg p {
     color: #A3BBAD;
 }
 
-.icon, .logo {
-    width: 80px;
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
-.book, 
-.join {
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountains {
+    margin: 100px 0;
+}
+
+.book, .join {
+    background-color: #2f6358;
     color: #A3BBAD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, 
-.join:hover {
+.book:hover, .join:hover {
     background-color: #0E3B43;
     color: white; 
 }
 
-nav a, 
-footer a {
+.card-img {
+    border: 10px solid black;
+}
+
+nav a, footer a {
     color: #A3BBAD;
     text-decoration: none;
 }
 
-nav a:hover, 
-footer a:hover {
+nav a:hover, footer a:hover {
     background-color: #357266;
     color: white;
+}
+
+footer {
+    padding: 25px 50px;
+    margin: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
