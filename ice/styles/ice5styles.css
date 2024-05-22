@@ -2,15 +2,16 @@ body {
     background-color: gray;
     margin: 0 auto;
 }
-#image-row img {
+.circle {
     border-radius: 50%;
     width: 20%;
-    border: 10px solid rgb(71, 71, 71);
-    margin: 30px;
+    max-width: 600px;
+    border: 8px solid rgb(71, 71, 71);
+    margin: 3%;
 }
-#image-row {
+.circle-row {
     text-align: center;
 }
-#hero-img {
+.hero-img {
     width: 100%;
 }
