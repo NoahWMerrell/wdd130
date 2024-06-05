@@ -98,10 +98,13 @@ header {
 }
 
 .home-title {
+    background-color: #A3BBAD;
     color: green;
     font-family: "Inter", Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 .msg {
